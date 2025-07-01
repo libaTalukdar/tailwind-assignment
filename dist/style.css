@@ -283,6 +283,9 @@
     width: calc(var(--spacing) * 7);
     height: calc(var(--spacing) * 7);
   }
+  .h-64 {
+    height: calc(var(--spacing) * 64);
+  }
   .h-auto {
     height: auto;
   }
@@ -403,6 +406,9 @@
   .justify-self-center {
     justify-self: center;
   }
+  .rounded {
+    border-radius: 0.25rem;
+  }
   .rounded-full {
     border-radius: calc(infinity * 1px);
   }
@@ -468,6 +474,21 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-\[url\(\'images\'\)\] {
+    background-image: url('images');
+  }
+  .bg-\[url\(\'images\/\'\)\] {
+    background-image: url('images/');
+  }
+  .bg-\[url\(\)\] {
+    background-image: url();
+  }
+  .bg-cover {
+    background-size: cover;
+  }
+  .bg-center {
+    background-position: center;
+  }
   .fill-amber-500 {
     fill: var(--color-amber-500);
   }
@@ -530,6 +551,9 @@
   }
   .py-12 {
     padding-block: calc(var(--spacing) * 12);
+  }
+  .py-20 {
+    padding-block: calc(var(--spacing) * 20);
   }
   .pb-3\.5 {
     padding-bottom: calc(var(--spacing) * 3.5);
