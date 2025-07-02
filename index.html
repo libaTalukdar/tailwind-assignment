@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="light" id="htmlTag">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +7,9 @@
     <link rel="shortcut icon" href="images/c4u full logo_2022 1.png" type="image/x-icon">
     <link rel="stylesheet" href="./dist/style.css">
 </head>
-<body>
+<body class="dark:text-white dark:bg-gray-900">
     
-    <!-- Responsive Header -->
+    <!--  Header section -->
 <header class="w-full flex justify-between items-center mx-auto px-4 md:px-10 py-6 relative">
   <!-- Logo -->
           <div>
@@ -18,10 +18,10 @@
 
   <!-- Desktop Nav -->
   <nav class="hidden md:flex gap-5 items-center">
-    <a href="#" class="text-black text-xl">Home</a>
-    <a href="#" class="text-black text-xl">About Us</a>
-    <a href="#" class="text-red-800 text-xl">Upskill</a>
-    <a href="#" class="text-black text-xl">Contact Us</a>
+    <a href="#" class="text-black dark:text-white font-semibold text-lg hover:text-red-900 hover:translate-y-2 hover:scale-105">Home</a>
+    <a href="#" class="text-black dark:text-white font-semibold text-lg hover:text-red-900 hover:translate-y-2 hover:scale-105">About Us</a>
+    <a href="#" class="text-red-700 dark:text-white font-semibold text-lg hover:text-red-900 hover:translate-y-2 hover:scale-105">Upskill</a>
+    <a href="#" class="text-black dark:text-white font-semibold text-lg hover:text-red-900 hover:translate-y-2 hover:scale-105">Contact Us</a>
   </nav>
 
   <!-- Register + Moon + Menu/Close Icon -->
@@ -32,7 +32,7 @@
     </button>
 
     <!-- Moon Icon (always shown) -->
-    <svg xmlns="http://www.w3.org/2000/svg" class="size-6 text-black" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+    <svg xmlns="http://www.w3.org/2000/svg" class=" dark:text-white dark:fill-amber-50 size-6 text-black" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" id="switch">
       <path stroke-linecap="round" stroke-linejoin="round"
         d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
     </svg>
@@ -53,7 +53,7 @@
 
   <!-- Mobile Menu -->
   <div id="mobileMenu" class="md:hidden hidden absolute top-full left-0 w-full bg-white flex flex-col gap-4 p-6 shadow-md z-40">
-    <a href="#" class="text-black text-lg">Home</a>
+    <a href="#" class="text-black text-lg hover:text-green-900">Home</a>
     <a href="#" class="text-black text-lg">About Us</a>
     <a href="#" class="text-red-800 text-lg">Upskill</a>
     <a href="#" class="text-black text-lg">Contact Us</a>
@@ -69,36 +69,36 @@
       <!-- hero section start -->
        <section class=" w-full flex flex-col-reverse sm:flex-row  items-center justify-center mx-auto px-12 mt-8 md:mt-14">
         <!-- left side -->
-        <div class="w-full md:w-1/2 py-10 mx-auto justify-center items-center ">
-            <p class="text-black mt-6 font-semibold">Discover-Interect-Engage</p>
-            <h1 class="text-black text-3xl sm:4xl md:text-6xl leading-12 md:leading-17 font-bold">Google <br><span class="text-red-700 underline  underline-offset-10 md:underline-offset-14 "> IT Support</span> <br>Certificate</h1>
+        <div class="w-full md:w-1/2 py-10 mx-auto justify-center items-center sm:px-18 px-4">
+            <p class="text-black dark:text-white mt-6 font-semibold">Discover-Interect-Engage</p>
+            <h1 class="text-black dark:text-white text-3xl sm:4xl md:text-6xl leading-12 md:leading-17 font-bold">Google <br><span class="text-red-700 underline  underline-offset-10 md:underline-offset-14 "> IT Support</span> <br>Certificate</h1>
             <p class="max-w-lg mt-8">This is your path to a career in IT. In this program, you’ll learn in-demand skills with no degree or experience required. </p>
 
             <div class="flex flex-wrap space-y-2.5 md:space-y-0 space-x-5 mt-5">
               <div>
                 <p class="text-green-600">438</p>
-                <p class="text-gray-700 text-sm">Videos</p>
+                <p class="text-gray-700 dark:text-white text-sm">Videos</p>
               </div>
               <div>
                 <p class="text-green-600">151</p>
-                <p class="text-gray-700 text-sm">Readings</p>
+                <p class="text-gray-700 dark:text-white text-sm">Readings</p>
               </div>
               <div>
                 <p class="text-green-600">108</p>
-                <p class="text-gray-700 text-sm">Quizees</p>
+                <p class="text-gray-700 dark:text-white text-sm">Quizees</p>
               </div>
               <div>
                 <p class="text-green-600">24</p>
-                <p class="text-gray-700 text-sm">Exercises</p>
+                <p class="text-gray-700 dark:text-white text-sm">Exercises</p>
               </div>
               <div>
                 <p class="text-green-600">4</p>
-                <p class="text-gray-700 text-sm">Assignments</p>
+                <p class="text-gray-700 dark:text-white text-sm">Assignments</p>
               </div>
             </div>
             <div class="flex items-center mt-6 space-x-5">
                 <button class=" bg-red-700 text-white rounded-md px-4 py-2 text-lg hover:scale-105 hover:bg-white hover:text-red-900 hover:transition-all duration-300">Signup</button>
-                <button class="text-gray-600 bg-transparent rounded-md px-2 py-1 text-lg hover:scale-105 hover:bg-red-200 hover:text-red-900 hover:transition-all duration-300">Learn more</button>
+                <button class="text-gray-600 dark:text-white bg-transparent rounded-md px-2 py-1 text-lg hover:scale-105 hover:bg-red-200 hover:text-red-900 hover:transition-all duration-300">Learn more</button>
             </div>
 
         </div>
@@ -111,11 +111,11 @@
         <section class=" w-full px-4 md:px-14 mx-auto mt-8 py-10">
           <div class="flex flex-col md:flex-row space-y-5 md:space-y-0 justify-around items-center mx-auto">
         <div class="">
-                <p class="max-w-[400px]">p- Pave your path to career success by<br> gaining  a  professional  Google<br> certificate with the support of C4</p>
+                <p class="max-w-[400px] text-center">p- Pave your path to career success by<br> gaining  a  professional  Google<br> certificate with the support of C4</p>
             </div>
             <div ><img src="images/Google.png" alt="google-image"></div>
             <div ><img src="images/Work & Pensions.png" alt="work-image" class="w-full"></div>
-            <div ><img src="images/c4u full logo_2022 1.png" alt="logo" class="w-full"></div>
+            <div ><img src="images/c4u full logo_2022 1.png" alt="logo" class="w-full "></div>
           </div>
             
         </section>
@@ -126,37 +126,37 @@
          mt-10">
           
          <div class=" col-span-12 md:col-span-6 rounded-lg space-y-6 bg-[#ffffff] shadow-2xl px-6 py-10 border-1  border-gray-300">
-          <h2 class="font-semibold text-lg p-3.5 border-b-2 border-gray-400">What you will learn</h2>
+          <h2 class="font-semibold dark:text-gray-950 text-lg p-3.5 border-b-2 border-gray-400">What you will learn</h2>
           <div class="flex items-center gap-2">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 text-red-800 fill-red-300">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 text-red-800 fill-red-300 dark:text-white">
   <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
 </svg>
 
-           <p>Gain skills required to succeed in an entry-level IT job
+           <p class="dark:text-gray-950">Gain skills required to succeed in an entry-level IT job
 </p>
           </div>
           <div class="flex items-center gap-2">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 text-red-800 fill-red-300">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 text-red-800 dark:text-white fill-red-300">
   <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
 </svg>
 
-<p> Learn to perform day-to-day IT support tasks including<br> computer assembly, wireless networking, installing<br> programs, and customer service
+<p class="dark:text-gray-950"> Learn to perform day-to-day IT support tasks including<br> computer assembly, wireless networking, installing<br> programs, and customer service
 </p>
           </div>
           <div class="flex items-center gap-2">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 text-red-800 fill-red-300">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 text-red-800 dark:text-white fill-red-300">
   <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
 </svg>
 
-<p>Learn how to provide end-to-end customer support<br>, ranging from identifying problems to troubleshooting and<br> debugging
+<p class="dark:text-gray-950">Learn how to provide end-to-end customer support<br>, ranging from identifying problems to troubleshooting and<br> debugging
 </p>
           </div>
           <div class="flex items-center gap-2">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 text-red-800 fill-red-300">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 text-red-800 dark:text-white fill-red-300">
   <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
 </svg>
 
-   <p>Learn to use systems including Linux, Domain Name<br> Systems, Command-Line Interface, and Binary Code
+   <p class="dark:text-gray-950">Learn to use systems including Linux, Domain Name<br> Systems, Command-Line Interface, and Binary Code
 
 </p>
 
@@ -165,29 +165,29 @@
          </div>
          <div class="col-span-12 md:col-span-6 rounded-lg bg-[#ffffff] shadow-lg border-1 border-gray-300 py-4 px-4">
           <img src="images/IT_social 1.png" alt="IT IT_social" class="w-full h-auto">
-        <p class="font-semibold text-lg pl-3 pb-3.5 border-b border-gray-500">Skills you will gain </p>
+        <p class="font-semibold dark:text-gray-950 text-lg pl-3 pb-3.5 border-b border-gray-500">Skills you will gain </p>
         <!-- button div -->
 
        <div class="space-y-5 px-4  py-6 ">
          <div class="flex flex-swrap space-x-4">
-          <button class="px-2 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700"> Debuging</button> 
-          <button class="px-2 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700"> Customer Service</button> 
-          <button class="px-2 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700"> Customer Support</button> 
+          <button class="px-2 dark:text-gray-950  py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700"> Debuging</button> 
+          <button class="px-2  dark:text-gray-950 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700"> Customer Service</button> 
+          <button class="px-2 dark:text-gray-950 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700"> Customer Support</button> 
         </div>
         <div class="flex space-x-4">
-          <button class="px-2 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700"> Domain Name System(DNS)</button> 
-          <button class="px-2 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700"> Network Modek</button> 
-          <button class="px-2 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700"> Linux</button> 
+          <button class="px-2 dark:text-gray-950  py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700"> Domain Name System(DNS)</button> 
+          <button class="px-2 dark:text-gray-950 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700"> Network Modek</button> 
+          <button class="px-2 dark:text-gray-950 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700"> Linux</button> 
         </div>
         <div class="flex space-x-4">
-          <button class="px-2 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700"> Encryption Algorithms and Techniques</button> 
-          <button class="px-2 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700"> Network Protocols</button> 
+          <button class="px-2 dark:text-gray-950 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700"> Encryption Algorithms and Techniques</button> 
+          <button class="px-2 dark:text-gray-950  py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700"> Network Protocols</button> 
         </div>
          <div class="flex space-x-4 flex-wrap space-y-3 items-center">
-          <button class="px-2  bg-transparent text-sm font-semibold rounded-xl  border-2 border-gray-700">Ipv4</button> 
-          <button class="px-1 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700"> Troubleshooting</button> 
-          <button class="px-2 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700">Binary Code </button> 
-          <button class="px-2 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700">Cloud Comuputing </button> 
+          <button class="px-2 dark:text-gray-950  bg-transparent text-sm font-semibold rounded-xl  border-2 border-gray-700">Ipv4</button> 
+          <button class="px-1 dark:text-gray-950 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700"> Troubleshooting</button> 
+          <button class="px-2 dark:text-gray-950 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700">Binary Code </button> 
+          <button class="px-2 dark:text-gray-950 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700">Cloud Comuputing </button> 
         </div>
        
 
@@ -202,11 +202,12 @@
               <div class="flex-col ">
                  <h1 class="font-bold text-lg md:text-3xl">There are 5 courses in this <br>Professional Certificate</h1>
               <div class="flex flex-col md:flex-row  justify-self-center gap-7 flex-wrap mt-8 items-center">
-                <button class="px-2 py-1 bg-green-500 text-sm font-semibold rounded-full  border-2 border-gray-700"> COURSE 1</button>
-                <button class="px-2 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700">COURSE 2 </button>
-                <button class="px-2 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700">COURSE 3 </button>
-                <button class="px-2 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700">COURSE 4 </button>
-                 <button class="px-2 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700">COURSE 5 </button>
+                <button class="px-2 py-1 bg-green-500 text-sm font-semibold rounded-full  border-2 border-gray-700
+                 hover:scale-105 hover:bg-transparent"> COURSE 1</button>
+                <button class="px-2 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700 hover:scale-105 hover:bg-green-500">COURSE 2 </button>
+                <button class="px-2 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700 hover:scale-105 hover:bg-green-500">COURSE 3 </button>
+                <button class="px-2 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700 hover:scale-105 hover:bg-green-500">COURSE 4 </button>
+                 <button class="px-2 py-1 bg-transparent text-sm font-semibold rounded-full  border-2 border-gray-700 hover:scale-105 hover:bg-green-500">COURSE 5 </button>
                
               </div>
               </div>
@@ -895,78 +896,23 @@ The difference between authentication and authorization</p>
              </section>
 
            <!-- footer section -->
-            <!-- <footer class="container mx-auto py-12">
-            <div class="grid grid-cols-12  gap-2 py-10 px-4 sm:px-12">
-            <div class="col-span-6 md:col-span-4 space-y-2">
-           <img src="images/c4u full logo_2022 1.png" alt="logo" class=" mb-2">
-          <p>Level39</p>
-          <p>One Canada Square</p>
-          <p>Canary Whart</p>
-          <p>London</p>
-          <p>E145AB</p>
-            </div>
-            <div class="md:col-span-2 col-span-6">
-              <a href="#" class="font-bold text-gray-950 py-2 mb-4">Home</a>
-             <div class="space-y-4 mt-4">
-               <p>Collaborations</p>
-              <p>Statistics</p>
-              <p>KHow it works</p>
-              <p>Testimonials</p>
-             </div>
-              
-            </div>
-            <div class="md:col-span-2 col-span-6">
-              <a href="#" class="font-bold text-gray-950 py-2">About Us</a>
-              <div class="space-y-4 mt-4">
-                 <p>Who We Are</p>
-              <p>Mission statement</p>
-              <p>Our vision</p>
-              <p>The team</p>
-
-              </div>
-             
-
-            </div>
-            <div class="md:col-span-2 col-span-6">
-             <a href="#" class="font-bold text-gray-950 py-2">Upskill</a>
-             <div class="space-y-4 mt-4">
-              <p>It support</p>
-                <p>Project Management</p>
-                <p>Data Analysts</p>
-                <p>Ux design</p>
-
-             </div>
-                
-                
-            </div>
-            <div class="col-span-2 ">
-              <a href="#" class="font-bold text-gray-950 py-2">Contact us</a>
-              <div class="space-y-4 mt-4">
-                 <p>Your message</p>
-             <p>Email</p>
-             <p>Phone Number</p>
-             <p>LinkedIn</p>
-
-              </div>
             
-            </div>
-
-            </div>
-            <p class="text-gray-600 text-center py-8">Copyright 2022 Creatives for Your LTD</p>
-            </footer> -->
+            
             <footer class="container mx-auto py-12">
               <div class="flex justify-around  items-center   flex-wrap sm:gap-7 gap-5 px-6 text-start mx-auto">
               <div class=" ">
            <img src="images/c4u full logo_2022 1.png" alt="logo" class=" mb-2">
-          <p>Level39</p>
+         <div class="space-y-2">
+           <p>Level39</p>
           <p>One Canada Square</p>
           <p>Canary Whart</p>
           <p>London</p>
           <p>E145AB</p>
+         </div>
             </div>
 
              <div class="">
-              <a href="#" class="font-bold text-gray-950 py-2 mb-4">Home</a>
+              <a href="#" class="font-bold text-gray-950 dark:text-white py-2 mb-4">Home</a>
              <div class="sm:space-y-4 space-y-2 sm:mt-4 mt-2">
                <p>Collaborations</p>
               <p>Statistics</p>
@@ -976,7 +922,7 @@ The difference between authentication and authorization</p>
              </div>
 
              <div class="">
-              <a href="#" class="font-bold text-gray-950 py-2">About Us</a>
+              <a href="#" class="font-bold text-gray-950 dark:text-white py-2">About Us</a>
               <div class="sm:space-y-4 space-y-2 sm:mt-4 mt-2">
                  <p>Who We Are</p>
               <p>Mission statement</p>
@@ -988,7 +934,7 @@ The difference between authentication and authorization</p>
 
 
               <div class="">
-             <a href="#" class="font-bold text-gray-950 py-2">Upskill</a>
+             <a href="#" class="font-bold text-gray-950 dark:text-white py-2">Upskill</a>
              <div class="sm:space-y-4 space-y-2 sm:mt-4 mt-2">
               <p>It support</p>
                 <p>Project Management</p>
@@ -998,7 +944,7 @@ The difference between authentication and authorization</p>
              </div>
              </div>
              <div class=" ">
-              <a href="#" class="font-bold text-gray-950 py-2">Contact us</a>
+              <a href="#" class="font-bold text-gray-950 dark:text-white py-2">Contact us</a>
               <div class="sm:space-y-4 space-y-2 sm:mt-4 mt-2">
                  <p>Your message</p>
              <p>Email</p>
@@ -1033,6 +979,12 @@ The difference between authentication and authorization</p>
       mobileMenu.classList.add('hidden');
     }
   });
+
+  // dark mode
+   const htmlTag = document.getElementById("htmlTag");
+       document.getElementById("switch").addEventListener("click", function(){
+        htmlTag.classList.toggle("dark");
+       });
 </script>
 
 
