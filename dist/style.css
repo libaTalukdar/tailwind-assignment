@@ -513,6 +513,9 @@
   .bg-\[url\(\'\/images\/brokle\.png\'\)\] {
     background-image: url('/images/brokle.png');
   }
+  .bg-\[url\(\'images\/brokle\.png\'\)\] {
+    background-image: url('images/brokle.png');
+  }
   .bg-cover {
     background-size: cover;
   }
