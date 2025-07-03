@@ -964,7 +964,7 @@
   }
 }
 .caption {
-  background-image: url('/images/brokle.png');
+  background-image: url('./images/brokle.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
