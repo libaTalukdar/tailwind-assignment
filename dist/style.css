@@ -313,6 +313,9 @@
     width: calc(var(--spacing) * 7);
     height: calc(var(--spacing) * 7);
   }
+  .h-\[70vh\] {
+    height: 70vh;
+  }
   .h-auto {
     height: auto;
   }
@@ -961,7 +964,6 @@
   }
 }
 .caption {
-  height: 70vh;
   background-image: url('/images/brokle.png');
   background-size: cover;
   background-position: center;
