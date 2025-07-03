@@ -1,6 +1,17 @@
 @import "tailwindcss";
 
-
+/* .bg-image{
+    background-image: url('images/brokle.png');
+    background-size: cover;
+    
+} */
+  .caption{
+      height:70vh;
+      background-image: url('/images/brokle.png'); 
+      background-size: cover;    
+      background-position: center; 
+      background-repeat: no-repeat; 
+    }
  
 /* @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *)); */
 @custom-variant dark (&:where(.dark, .dark *));
