@@ -505,20 +505,8 @@
   .bg-white {
     background-color: var(--color-white);
   }
-  .bg-\[url\(\'\/brokle\.png\'\)\] {
-    background-image: url('/brokle.png');
-  }
-  .bg-\[url\(\'\/images\/brokle\.png\'\)\] {
-    background-image: url('/images/brokle.png');
-  }
-  .bg-\[url\(\'brokle\.png\'\)\] {
-    background-image: url('brokle.png');
-  }
-  .bg-\[url\(\'tailwind-assignment-1\/images\/brokle\.png\'\)\] {
-    background-image: url('tailwind-assignment-1/images/brokle.png');
-  }
-  .bg-\[url\(\'tailwind-assignment\/images\/brokle\.png\'\)\] {
-    background-image: url('tailwind-assignment/images/brokle.png');
+  .bg-\[url\(\'\.\.\/images\/brokle\.png\'\)\] {
+    background-image: url('../images/brokle.png');
   }
   .bg-cover {
     background-size: cover;
